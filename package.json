@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnhQuoc189/nodejs-blog.git"
+    "url": "git+https://github.com/AnhQuoc189/NodeJS-Blog.git"
   },
   "keywords": [
     "anhquoc",
@@ -20,9 +20,9 @@
   "author": "AnhQuoc",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AnhQuoc189/nodejs-blog/issues"
+    "url": "https://github.com/AnhQuoc189/NodeJS-Blog/issues"
   },
-  "homepage": "https://github.com/AnhQuoc189/nodejs-blog#readme",
+  "homepage": "https://github.com/AnhQuoc189/NodeJS-Blog#readme",
   "dependencies": {
     "express": "^4.18.2",
     "express-handlebars": "^6.0.7"
