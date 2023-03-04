@@ -1,35 +1,40 @@
 {
-  "name": "blog",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
-  "scripts": {
-    "start": "nodemon --inspect src/index.js",
-    "watch": "node-sass --watch src/resources/scss/app.scss --output src/public/css/app.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AnhQuoc189/NodeJS-Basic.git"
-  },
-  "keywords": [
-    "anhquoc",
-    "bog",
-    "anhquoc1809"
-  ],
-  "author": "AnhQuoc",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AnhQuoc189/NodeJS-Basic/issues"
-  },
-  "homepage": "https://github.com/AnhQuoc189/NodeJS-Basic#readme",
-  "dependencies": {
-    "express": "^4.18.2",
-    "express-handlebars": "^6.0.7"
-  },
-  "devDependencies": {
-    "morgan": "^1.10.0",
-    "node-sass": "^8.0.0",
-    "nodemon": "^2.0.20"
-  }
+    "name": "blog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "nodemon --inspect src/index.js",
+        "watch": "node-sass --watch src/resources/scss/app.scss --output src/public/css/app.css",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AnhQuoc189/NodeJS-Basic.git"
+    },
+    "keywords": [
+        "anhquoc",
+        "bog",
+        "anhquoc1809"
+    ],
+    "author": "AnhQuoc",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AnhQuoc189/NodeJS-Basic/issues"
+    },
+    "homepage": "https://github.com/AnhQuoc189/NodeJS-Basic#readme",
+    "dependencies": {
+        "bootstrap-icons": "^1.10.3",
+        "express": "^4.18.2",
+        "express-handlebars": "^6.0.7",
+        "method-override": "^3.0.0",
+        "mongoose": "^7.0.0",
+        "mongoose-delete": "^0.5.4",
+        "mongoose-slug-generator": "^1.0.4"
+    },
+    "devDependencies": {
+        "morgan": "^1.10.0",
+        "node-sass": "^8.0.0",
+        "nodemon": "^2.0.20"
+    }
 }
